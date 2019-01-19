@@ -12,39 +12,46 @@
   }
   .header {
     padding: 20px 0 20px 0;
-    margin: 40px 0 50px 0;
+    margin: 20px 0 50px 0;
   }
   
   main {
-    padding: 10px 0 0 0;
     margin: 0 0 70px 0;
   }
 
-  li {
+  /* li {
     list-style-type: none; 
-   }
+   } */
+
    .nav-list {
     text-align: center;
-    
-   
   }
   .subtitle {
-    margin: 32px 0 39px 0;
+    margin: 35px 0 38px 0;
     font-size: 14px;
     font-family: 'Ubuntu', sans-serif;
-    color: gainsboro;
+    color: #c7c1b6;
+    text-transform: uppercase;
   }
   
   .list-item {
     list-style: none;
     display: inline-block;
-    margin: 0 80px 0 0;
+    margin: 0 100px 0 0;
+  }
+  .list-item:nth-child(0n+4) {
+    margin-right: 0px;
+  }
+  .nav-link:hover {
+    color: #9addfb;
   }
   
   .nav-link {
     text-decoration: none;
-    color: black;
+    color: #626262;
     font-size: 14px;
+    text-transform: uppercase;
+    
     
   }
   .article_item {
@@ -52,14 +59,17 @@
     list-style: none;
     display: inline-block;
     width: 420px;
-    margin: 0 0 137px 0;
+    color: #626262;
+    margin: 0 0 60px 0;
     text-align: justify;
+    line-height: 1.5em;
   }
   h3{
     word-spacing: -0.1em;
     font-size: 30px;
     font-weight: normal;
     margin: 0 0 45px 0;
+    color: #626262;
   }
 
   .article_item-r {
@@ -80,14 +90,16 @@
   margin: 0 0 15px 0;
 }
 
-button {
+.button {
   margin: 0 auto;
   display: block;
-  width: 170px;
-  height: 50px;
+  width: 165px;
+  height: 60px;
   font-size: 20px;
+  text-align: center;
   outline: none;
   cursor: pointer;
   background-color: transparent;
   border: 1px solid grey;
+  color: #626262;
 }

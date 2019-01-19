@@ -26,27 +26,45 @@
     margin: 0 0 70px 0;
   }
   
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
   .nav-list {
-    text-align: center;
+    /* height: auto; 
+    overflow: hidden; */
   }
   
   .list-item {
     list-style: none;
-    display: inline-block;
     margin: 0 20px 0 0;
+    float: left;
   }
   
+  /* .list-item:last-child {
+    clear: left;
+  } */
+
+  .list-item:last-child {
+    margin: 0;
+  }
+
   .nav-link {
     text-decoration: none;
-    color: green;
+    color: black;
   }
   
   .news-wrapper {
     background-color: #d5d1ca;
+    text-align:  center;
   }
   
   .news {
     margin-bottom: 70px;
+    
   }
   
   .section-title {
@@ -55,26 +73,37 @@
     font-size: 36px;
   }
   
-  .news-article__list {
-    font-size: 0;
+  .section-title::after {
+      content: "";
+      border-bottom: 2px solid red;
+      display: block;
+      width: 100px;
+      margin: 0 auto;
+      margin-top: 20px;
   }
+
+
   
   .news-article__item {
     font-size: 16px;
     list-style: none;
-    display: inline-block;
     width: 400px;
-    margin: 0 0 50px 0;
+    margin: 0 100px 50px 0;
+    float: left;
   }
   
-  .news-article__item-r {
-    /* margin-right: calc(900px - 400px * 2 - 8px); */
+  .news-article__item:nth-child(even) {
+    margin-right: 0px;
+  } 
+
+  /* .news-article__item-r {
     margin-right: 100px;
-  }
-  
+  } */
+
   .article-title {
     font-family: "Charm", cursive, serif;
     font-size: 24px;
+    
   }
   
   .article-text {
@@ -94,9 +123,20 @@
     border-radius: 10px;
   }
   
+  .article-link:hover {
+      color: blue;
+      border: 2px solid blue;
+  }
+
+  .article-link:focus {
+      background-color: red;
+  }
+
   .blog-wrapper {
-    background: #000 url("../img/1.jpg") no-repeat center center;
+    background: #000 url("./img/1.jpg") no-repeat center center;
     background-size: cover;
+    text-align:  center;
+
   }
   
   .blog {
@@ -106,6 +146,7 @@
   
   .blog-article__list {
     font-size: 0;
+    
   }
   
   .blog-article__item {
