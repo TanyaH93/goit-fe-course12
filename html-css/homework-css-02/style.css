@@ -1,8 +1,8 @@
 * {
-    margin: 0;
+  margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
   body{
     font-family: 'Playfair Display', serif;
   }
@@ -90,7 +90,7 @@
   margin: 0 0 15px 0;
 }
 
-.button {
+.new {
   margin: 0 auto;
   display: block;
   width: 165px;
