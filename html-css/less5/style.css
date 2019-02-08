@@ -75,7 +75,7 @@
   
   .section-title::after {
       content: "";
-      border-bottom: 2px 164px solid red;
+      border-bottom: 2px solid red;
       display: block;
       width: 100px;
       margin: 0 auto;
