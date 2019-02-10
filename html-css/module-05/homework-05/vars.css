@@ -1,8 +1,13 @@
 :root {
     --main-font-color: ;
     --semi-font-color: ;
-    --main-bg-color: red;
+    --header-bg-color: #ffffff;
     --semi-bg-color: ;
-    --main-section-bg-color: ;
+    --main-section-bg-color: #e9f0fd;
     --main-font: "Roboto", serif, sans-serif;
-  }
+    --logo-font: 'Roboto', sans-serif;
+    --nav-font: 'Open Sans', sans-serif;
+    --nav-color: #0f0101;
+    --logo-info-section_title-color: #515151;
+    
+}

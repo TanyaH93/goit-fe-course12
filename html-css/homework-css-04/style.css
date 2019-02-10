@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 .header {
     padding: 20px 0 20px 0;
     margin: 20px 30px 110px 30px;
@@ -49,11 +48,17 @@
     width: 1170px;
     margin: 0 auto;
   }
-  
-  .Featured_container:hover {
-    color: #1abc9c;
+
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
   }
 
+  .Featured-products_item:hover {
+    color: #1abc9c;
+  }
+ 
   .section-title {
     font-size: 48px;
     text-transform: uppercase;
@@ -61,7 +66,7 @@
     color: #515151;
     font-family: 'Roboto', sans-serif;
     letter-spacing: -0.03em;
-    margin: 105px 0 0 0;
+    /* margin: 105px 0 0 0; */
   }
 
   .section-title::after {
@@ -89,6 +94,7 @@
     text-align:justify;
     background-image: url("./img/1, 2, 3, 4, 5, 6.png"); 
     background-color: #e9f0fd;
+    cursor: pointer;
 }
 
 .Featured-products_item-r {
@@ -97,7 +103,7 @@
 
 .name {
     color: #ffffff;
-    background-color: #000000;
+    background-color: #323232;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
     text-transform: uppercase; 
@@ -113,7 +119,7 @@
 
 .cost {
     color: #ffffff;
-    background-color: rgba(0, 0, 0, 0.44);
+    background-color: rgb(50, 50, 50, 0.44);
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
     text-transform: uppercase; 
@@ -180,3 +186,11 @@
     height: 51px;
     border-radius: 3px;
 }
+
+.Featured-products_item:hover .name {
+    background-color: #1abc9c;
+  }
+  
+.Featured-products_item:hover .cost {
+    background-color: rgb(26, 188, 156, 0.44);
+  }
