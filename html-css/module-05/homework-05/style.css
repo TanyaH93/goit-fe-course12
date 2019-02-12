@@ -33,6 +33,15 @@
     color: var(--logo-info-section_title-color);
   }
 
+  .logo {
+    font-family: var(--logo-font);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 30px; 
+    color: var(--logo-info-section_title-color);
+    font-weight: 400;
+  }
+
   .logo:first-letter {
     color: #1abc9c;
     font-weight: 600;
@@ -82,7 +91,7 @@
       padding-top: 95px;
       display: none;
     }
-  }
+  
   
   .product:hover .product-overlay {
     display: block;
