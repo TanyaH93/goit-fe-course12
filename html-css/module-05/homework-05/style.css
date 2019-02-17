@@ -17,7 +17,7 @@
     clear: both;
   }
   .header-wrapper {
-      background-color: var(--header-bg-color);
+      background-color: var(--headbg-txt-main-imgbg-color);
   }
 
   .header {
@@ -26,24 +26,24 @@
 
   .logo-link {
     float: left;
-    font-family: var(--logo-font);
+    font-family: var(--title-font);
     text-transform: uppercase;
     text-decoration: none;
     font-size: 30px; 
-    color: var(--logo-info-section_title-color);
+    color: var(--foot-name-logo-title-color);
   }
 
   .logo {
-    font-family: var(--logo-font);
+    font-family: var(--title-font);
     text-transform: uppercase;
     text-decoration: none;
     font-size: 30px; 
-    color: var(--logo-info-section_title-color);
+    color: var(--foot-name-logo-title-color);
     font-weight: 400;
   }
 
   .logo:first-letter {
-    color: #1abc9c;
+    color: var(--highlight-hover-color);
     font-weight: 600;
 }
 
@@ -59,18 +59,18 @@
   }
   .nav-link {
     text-decoration: none;
-    font-family: var(--nav-font);
+    font-family: var(--nav-foot-cart-font);
     font-size: 14px;
     color: var(--nav-color);
     font-weight: 700;
   }
 
   .nav-link:hover {
-    color: #1abc9c;
+    color: var(--highlight-hover-color);
   }
 
   .nav-list_item:last-child {
-      margin-right: 0;
+    margin-right: 0;
   }
 
   .banner {
@@ -93,7 +93,7 @@
       float: left;
       top: 0;
       left: 0;
-      background-color: rgba(0, 0, 0, 0.55);
+      background-color: var(--banner-product-over);
       text-align: center;
       width: 1600px;
       padding-top: 95px;
@@ -106,8 +106,8 @@
     .banner-btn {
       display: inline-block;
       border: none;
-      background-color: rgb(26, 188, 156, 0.65); 
-      color: #ffffff;
+      background-color: var(--ban-btn-color);
+      color: var(--headbg-txt-main-imgbg-color);
       cursor: pointer;
       font-size: 60px;
       width: 104px;
@@ -116,12 +116,11 @@
     }
 
     .banner-btn:hover {
-      background-color: #1abc9c;
+      background-color: var(--highlight-hover-color);
     }
 
 .arrow-left {
   display: inline-block;
-  /* margin-left: 245px; */
   float: left;
   list-style: none;
   margin-left: 245px;
@@ -139,21 +138,19 @@
   display: inline-block;
   list-style: none;
   text-align: justify;
-  font-family: var(--nav-font);
+  font-family: var(--title-font);
 }
 
   .title {
-    color: #ffffff;
+    color: var(--headbg-txt-main-imgbg-color);
     font-size: 60px;
-    /* font-family: var(--logo-font); */
     text-transform: uppercase;
     letter-spacing: -3px;
   }
 
 .choice {
-  color: #ffffff;
+  color: var(--headbg-txt-main-imgbg-color);
   font-size: 24px;
-  /* font-family: var(--logo-font); */
   text-transform: uppercase;
   letter-spacing: -1px;
 
@@ -182,14 +179,14 @@
     margin: 100px 0 32px 0;
     text-align: center;
     font-size: 48px;
-    font-family: var(--main-font);
+    font-family: var(--title-font);
     text-transform: uppercase;
-    color: var(--logo-info-section_title-color);
+    color: var(--foot-name-logo-title-color);
   }
 
   .info-section_title:after {
     content: "";
-    border-bottom: 7px solid #1abc9c;
+    border-bottom: 7px solid var(--highlight-hover-color);
     display: block;
     width: 164px;
     margin: 0 auto;
@@ -207,9 +204,9 @@
   }
 
   .name {
-    color: #ffffff;
-    background-color: #323232;
-    font-family: var(--main-font);
+    color: var(--headbg-txt-main-imgbg-color);
+    background-color: var(--foot-name-logo-title-color);
+    font-family: var(--title-font);
     text-decoration: none;
     text-transform: uppercase; 
     font-size: 18px;
@@ -217,15 +214,16 @@
     line-height: 40px;
     width: 201px;
     display: inline-block;
-    padding: 0 0 0 14px;
+    padding-left: 14px;
+    margin: 0 auto;
     float: left;
     height: 40px; 
 }
 
 .cost {
-    color: #ffffff;
-    background-color: rgb(50, 50, 50, 0.44);
-    font-family: var(--main-font);
+    color: var(--headbg-txt-main-imgbg-color);
+    background-color: var(--cost-bg-color);
+    font-family: var(--title-font);
     text-decoration: none;
     text-transform: uppercase; 
     font-size: 18px;
@@ -252,7 +250,7 @@
   left: 0;
   width: 90%;
   height: 90%;
-  background-color: rgba(0, 0, 0, 0.55);
+  background-color: var(--banner-product-over);
   margin: 12px 12px;
   display: none;
   padding: 80px 0;
@@ -265,15 +263,14 @@
 }
 
 .product:hover .name-cost {
-  background-color: #1abc9c;
+  background-color: var(--highlight-hover-color);
 }
 
 .button {
-  /* padding: 20px; */
   display: inline;
-  border: 1px solid #ffffff;
+  border: 1px solid var(--headbg-txt-main-imgbg-color);
   background-color: transparent;
-  color: #ffffff;
+  color: var(--headbg-txt-main-imgbg-color);
   cursor: pointer;
   font-size: 20px;
   width: 53px;
@@ -283,59 +280,66 @@
 }
 
 .button:hover {
-  background-color: #1abc9c;
+  background-color: var(--highlight-hover-color);
 }
 
 .cart {
   display: inline-block;
-  background-color: #323232;
+  background-color: var(--foot-name-logo-title-color);
   margin: 8px 0;
   height: 50px;
-  weight: 180px;
-  color: #ffffff;
+  color: var(--headbg-txt-main-imgbg-color);
   cursor: pointer;
   width: 166px;
-  /* margin-right: 50px; */
 }
 
 .fa-shopping-cart {
 margin-right: 10px;
-font-size: 20px;
-}
-
-.add-to-card {
+/* font-size: 20px; */
+/* display: inline-block; */
+display: inline-block;
   font-size: 14px; 
   text-transform: uppercase;
   text-decoration: none;
-  color: #ffffff;
+  color: var(--headbg-txt-main-imgbg-color);
   text-align: center;
   cursor: pointer;
 }
 
+/* .add-to-card {
+  display: inline-block;
+  font-size: 14px; 
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--headbg-txt-main-imgbg-color);
+  text-align: center;
+  cursor: pointer;
+} */
+
 .product:hover .name {
-  background-color: #1abc9c;
+  background-color: var(--highlight-hover-color);
 }
 
 .product:hover .cost {
-  background-color: rgb(255, 255, 255, 0.44);
+  background-color: var(--prod_hover-cost);
 }
 
 .footer {
   height: 90px;
   width: 1600px;
   text-align: center;
-  background-color: #323232;
-  color: #ffffff;
+  background-color: var(--foot-name-logo-title-color);
+  color: var(--headbg-txt-main-imgbg-color);
   margin: 0 auto;
 }
 
 .info {
   padding: 40px;
   font-size: 16px; 
-  font-family: var(--nav-font);
+  font-family: var(--nav-foot-cart-font);
   font-weight: 400;
 }
 
 .colortext {
-  color: #1abc9c;
+  color: var(--highlight-hover-color);
 }
