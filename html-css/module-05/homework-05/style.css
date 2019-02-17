@@ -1,5 +1,3 @@
-@import "./vars.css";
-
 * {
     margin: 0;
     padding: 0;
@@ -16,8 +14,9 @@
     display: table;
     clear: both;
   }
+
   .header-wrapper {
-      background-color: var (--headbg-txt-main-imgbg-color);
+      background-color: #ffffff;
   }
 
   .header {
@@ -26,24 +25,24 @@
 
   .logo-link {
     float: left;
-    font-family: var (--title-font);
+    font-family: "Roboto", serif, sans-serif;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 30px; 
-    color: var (--foot-name-logo-title-color);
+    color: #323232;
   }
 
   .logo {
-    font-family: var (--title-font);
+    font-family: "Roboto", serif, sans-serif;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 30px; 
-    color: var (--foot-name-logo-title-color);
+    color: #323232;
     font-weight: 400;
   }
 
   .logo:first-letter {
-    color: var (--highlight-hover-color);
+    color: #1abc9c;
     font-weight: 600;
 }
 
@@ -59,14 +58,14 @@
   }
   .nav-link {
     text-decoration: none;
-    font-family: var (--nav-foot-cart-font);
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    color: var (--nav-color);
+    color: #0f0101;
     font-weight: 700;
   }
 
   .nav-link:hover {
-    color: var (--highlight-hover-color);
+    color: #1abc9c;
   }
 
   .nav-list_item:last-child {
@@ -93,7 +92,7 @@
       float: left;
       top: 0;
       left: 0;
-      background-color: var (--banner-product-over);
+      background-color: rgba(0, 0, 0, 0.55);
       text-align: center;
       width: 1600px;
       padding-top: 95px;
@@ -106,8 +105,8 @@
     .banner-btn {
       display: inline-block;
       border: none;
-      background-color: var (--ban-btn-color);
-      color: var (--headbg-txt-main-imgbg-color);
+      background-color: rgb(26, 188, 156, 0.65); 
+      color: #ffffff;
       cursor: pointer;
       font-size: 60px;
       width: 104px;
@@ -116,7 +115,7 @@
     }
 
     .banner-btn:hover {
-      background-color: var (--highlight-hover-color);
+      background-color: #1abc9c;
     }
 
 .arrow-left {
@@ -138,18 +137,18 @@
   display: inline-block;
   list-style: none;
   text-align: justify;
-  font-family: var (--title-font);
+  font-family: "Roboto", serif, sans-serif;
 }
 
   .title {
-    color: var (--headbg-txt-main-imgbg-color);
+    color: #ffffff;
     font-size: 60px;
     text-transform: uppercase;
     letter-spacing: -3px;
   }
 
 .choice {
-  color: var (--headbg-txt-main-imgbg-color);
+  color: #ffffff;
   font-size: 24px;
   text-transform: uppercase;
   letter-spacing: -1px;
@@ -161,7 +160,7 @@
   } 
 
   .info-section_wrapper {
-    background-color: var (--main-section-bg-color);
+    background-color: #e9f0fd;
     width: 1600px;
     margin: 0 auto; 
     height: 675px;
@@ -179,14 +178,15 @@
     margin: 100px 0 32px 0;
     text-align: center;
     font-size: 48px;
-    font-family: var (--title-font);
+    font-family: "Roboto", serif, sans-serif;
     text-transform: uppercase;
-    color: var (--foot-name-logo-title-color);
+    color: #323232;
+    font-weight: 600;
   }
 
   .info-section_title:after {
     content: "";
-    border-bottom: 7px solid var (--highlight-hover-color);
+    border-bottom: 7px solid #1abc9c;
     display: block;
     width: 164px;
     margin: 0 auto;
@@ -204,9 +204,9 @@
   }
 
   .name {
-    color: var (--headbg-txt-main-imgbg-color);
-    background-color: var (--foot-name-logo-title-color);
-    font-family: var (--title-font);
+    color: #ffffff;
+    background-color: #323232;
+    font-family: "Roboto", serif, sans-serif;
     text-decoration: none;
     text-transform: uppercase; 
     font-size: 18px;
@@ -221,9 +221,9 @@
 }
 
 .cost {
-    color: var (--headbg-txt-main-imgbg-color);
-    background-color: var (--cost-bg-color);
-    font-family: var (--title-font);
+    color: #ffffff;
+    background-color: rgb(50, 50, 50, 0.44);
+    font-family: "Roboto", serif, sans-serif;
     text-decoration: none;
     text-transform: uppercase; 
     font-size: 18px;
@@ -250,7 +250,7 @@
   left: 0;
   width: 90%;
   height: 90%;
-  background-color: var (--banner-product-over);
+  background-color: rgba(0, 0, 0, 0.55);
   margin: 12px 12px;
   display: none;
   padding: 80px 0;
@@ -263,14 +263,14 @@
 }
 
 .product:hover .name-cost {
-  background-color: var (--highlight-hover-color);
+  background-color: #1abc9c;
 }
 
 .button {
   display: inline;
-  border: 1px solid var (--headbg-txt-main-imgbg-color);
+  border: 1px solid #ffffff;
   background-color: transparent;
-  color: var (--headbg-txt-main-imgbg-color);
+  color: #ffffff;
   cursor: pointer;
   font-size: 20px;
   width: 53px;
@@ -280,66 +280,60 @@
 }
 
 .button:hover {
-  background-color: var (--highlight-hover-color);
+  background-color: #1abc9c;
 }
 
 .cart {
   display: inline-block;
-  background-color: var (--foot-name-logo-title-color);
+  background-color: #323232;
   margin: 8px 0;
   height: 50px;
-  color: var (--headbg-txt-main-imgbg-color);
+  color: #ffffff;
   cursor: pointer;
   width: 166px;
 }
 
 .fa-shopping-cart {
-margin-right: 10px;
-/* font-size: 20px; */
-/* display: inline-block; */
-display: inline-block;
-  font-size: 14px; 
-  text-transform: uppercase;
-  text-decoration: none;
-  color: var (--headbg-txt-main-imgbg-color);
-  text-align: center;
-  cursor: pointer;
+margin-right: 15px;
+font-size: 20px; 
+ display: inline-block;
 }
 
-/* .add-to-card {
+.add-to-cart {
   display: inline-block;
   font-size: 14px; 
   text-transform: uppercase;
   text-decoration: none;
-  color: var(--headbg-txt-main-imgbg-color);
+  color: #ffffff;
   text-align: center;
-  cursor: pointer;
-} */
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal
+}
 
 .product:hover .name {
-  background-color: var (--highlight-hover-color);
+  background-color: #1abc9c;
 }
 
 .product:hover .cost {
-  background-color: var (--prod_hover-cost);
+  background-color: rgb(255, 255, 255, 0.44);
 }
 
 .footer {
   height: 90px;
   width: 1600px;
   text-align: center;
-  background-color: var (--foot-name-logo-title-color);
-  color: var (--headbg-txt-main-imgbg-color);
+  background-color: #323232;
+  color: #ffffff;
   margin: 0 auto;
 }
 
 .info {
   padding: 40px;
   font-size: 16px; 
-  font-family: var (--nav-foot-cart-font);
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
 }
 
 .colortext {
-  color: var (--highlight-hover-color);
+  color: #1abc9c;
 }
