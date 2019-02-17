@@ -1,13 +1,14 @@
 :root {
-    --main-font-color: ;
-    --semi-font-color: ;
-    --header-bg-color: #ffffff;
-    --semi-bg-color: ;
+    --title-font: "Roboto", serif, sans-serif;
+    --nav-foot-cart-font: 'Open Sans', sans-serif;
+
+    --highlight-hover-color: #1abc9c;
     --main-section-bg-color: #e9f0fd;
-    --main-font: "Roboto", serif, sans-serif;
-    --logo-font: 'Roboto', sans-serif;
-    --nav-font: 'Open Sans', sans-serif;
+    --foot-name-logo-title-color: #323232;
     --nav-color: #0f0101;
-    --logo-info-section_title-color: #515151;
-    
+    --headbg-txt-main-imgbg-color: #ffffff;
+    --banner-product-over: rgba(0, 0, 0, 0.55);
+    --cost-bg-color: rgb(50, 50, 50, 0.44);
+    --ban-btn-color: rgb(26, 188, 156, 0.65); 
+    --prod_hover-cost: rgb(255, 255, 255, 0.44);
 }
