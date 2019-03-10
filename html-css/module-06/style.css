@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.logo-link {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    color: #95e1d3;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none; 
+    width: 600px;
+    justify-content: space-between;
+    min-height: 70px;
+    align-items: center;
+    
+} 
+
+.nav-link {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #95e1d3;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: color 200ms linear;
+}
+
+.nav-link:hover {
+    color: #f38181;
+    content: "";
+    border-bottom: 3px solid #f38181;
+  }
+
+.services-list {
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
+    justify-content: space-around;
+    flex-wrap: wrap;  
+}
+
+.comment {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    color: #333333;
+}
+
+.amazing-services {
+    text-align: center;
+    padding-left: 20px;
+    margin-top: 70px;  
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    letter-spacing: -0.5px;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.title::after {
+    content: "";
+    border-bottom: 5px solid #f38181;
+    display: block;
+    width: 60px;
+    margin: 0 auto;
+    margin-top: 45px;
+    margin-bottom: 70px;
+}
+
+.list-title {
+    margin: 0 0 10px 0;
+    text-transform: uppercase; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #333333;
+}
+
+.content-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #999999;
+    line-height: 25px;
+}
+
+
+.icon {
+    display: flex;
+    width: 380px;
+    
+    margin: 0 0 100px 0;
+}
+
+.title-services {
+    display: flex;
+    align-items: center;
+}
+
+.our-team {
+    text-align: center;
+    margin-bottom: 83px;
+}
+  .team-content {
+    justify-content: space-around;
+    width: 950px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #999999;
+    line-height: 25px;
+  } 
+
+.team-card {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 95px;
+}
+
+.article {
+    position: relative;
+    padding-left: 32px;
+    text-align: left;
+    width: 330px;
+}
+
+.name {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #333333;
+    letter-spacing: -0.5px;
+   
+}
+
+.position {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: #999999;
+    font-style: italic; 
+}
+
+
+.colortext{
+    color: #f38181;
+}
+
+.info-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+    height: 63px;
+    align-items: center;
+}
+
+.info {
+    color: #333333;
+    }
+    
+.input {
+    width: 230px;
+    height: 40px;
+    padding-left: 10px;
+    font-style: italic; 
+    border: 1px solid #cccccc;
+    font-size: 15px;  
+    
+    
+}
+
+::-webkit-input-placeholder {
+    color: #cccccc;
+}
+
+
+.email-btn {
+    height: 40px;
+    width: 150px;
+    color: #ffffff;
+    background-color: #95e1d3;
+    border: none; 
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: "Montserrat";
+}
+
+.email {
+    display: flex;
+}
+
+.team-img:hover,
+.team-overlay 
+{
+    transform: translate(-10px, -10px);
+    box-shadow: 10px 10px #95e1d3;
+    
+}
+
+
+.team-img_cont {
+    position: relative;
+    
+}
+
+ .team-overlay {
+    /* display: block; */
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 380px;
+    height: 470px;
+    background: linear-gradient(rgb(243, 129, 129, 0.9), rgb(252, 227, 138, 0.9));
+    display: none;
+    align-items: center;
+   
+  } 
+  
+  .team:hover .team-overlay {
+    display: block;
+    
+  }
+
+.social-link {
+    display: inline-block;
+    border: none;
+    background-color: #fce38a;
+    cursor: pointer;
+    width: 56px;
+    height: 56px;
+    align-items: center;
+    margin: 0 0.1px;
+    transition: color 200ms linear;
+}
+
+.social-link:hover {
+    background-color: #95e1d3;
+   
+}
+
+.t-img {
+   margin-top: 15px;
+}
+
+.links {
+    display:inline-flex;
+    justify-content: space-between;
+    margin-top: 200px;
+    height: 56px;
+   
+}
+
